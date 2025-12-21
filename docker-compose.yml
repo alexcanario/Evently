@@ -4,3 +4,6 @@
     build:
       context: .
       dockerfile: Src/Api/Evently.Api/Dockerfile
+
+  evently.database:
+    image: postgres:latest

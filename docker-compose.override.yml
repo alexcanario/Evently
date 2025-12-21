@@ -14,3 +14,15 @@
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+  
+  evently.database:
+    container_name: Evently.Database
+    environment:
+      - POSTGRES_USER=eventlyApp
+      - POSTGRES_PASSWORD=C@151867
+      - POSTGRES_DB=evently
+    volumes:
+      - ./.containers/db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+ 
