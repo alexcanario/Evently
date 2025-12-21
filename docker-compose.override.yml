@@ -1,6 +1,6 @@
 ﻿services:
   evently.api:
-    container_name: Evently.Api
+    container_name: evently.api
     command: ["dotnet", "Evently.Api.dll"]
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -9,6 +9,8 @@
     ports:
       - 5050:8080
       - 5051:8081
+    depends_on:
+      - evently.database
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -16,7 +18,7 @@
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
   
   evently.database:
-    container_name: Evently.Database
+    container_name: evently.database
     environment:
       - POSTGRES_USER=eventlyApp
       - POSTGRES_PASSWORD=C@151867
@@ -24,5 +26,4 @@
     volumes:
       - ./.containers/db:/var/lib/postgresql/data
     ports:
-      - 5432:5432
- 
+      - 5432:5432 

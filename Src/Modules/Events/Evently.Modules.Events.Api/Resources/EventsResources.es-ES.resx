@@ -124,6 +124,6 @@
     <value>El evento {0} ~ {1} se creó correctamente.</value>
   </data>
   <data name="EventCreatedWithTitleAt" xml:space="preserve">
-    <value>El evento {0} ~{1} se creó correctamente el {2}</value>
+    <value>El evento {0} ~{1} se creó correctamente el {2}.</value>
   </data>
 </root>

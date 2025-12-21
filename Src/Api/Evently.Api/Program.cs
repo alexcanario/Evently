@@ -1,13 +1,12 @@
-﻿using Evently.Modules.Events.Api;
-using System.Globalization;
+﻿using Evently.Api.Config;
+using Evently.Api.Extensions;
+using Evently.Modules.Events.Api;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 
-builder.Services.AddEventsModule(builder.Configuration);
-
-builder.Services.AddLocalization();
+builder.Services.AddCultures();
 
 builder.Services.AddEventsModule(builder.Configuration);
 
@@ -18,6 +17,7 @@ app.UseRequestLocalization();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.ApplyMigrations();
 }
 
 EventsModuleConfig.MapEndpoints(app);
