@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Folder Name="/Src/" />
+  <Folder Name="/Src/Api/">
+    <Project Path="Src/Api/Evently.Api/Evently.Api.csproj" />
+  </Folder>
+  <Folder Name="/Src/Modules/" />
+  <Folder Name="/Src/Modules/Events/">
+    <Project Path="Src/Modules/Events/Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>

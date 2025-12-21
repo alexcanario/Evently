@@ -20,6 +20,6 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-Evently.Modules.Events.Api.EventsModuleConfig.MapEndpoints(app);
+EventsModuleConfig.MapEndpoints(app);
 
 await app.RunAsync();
