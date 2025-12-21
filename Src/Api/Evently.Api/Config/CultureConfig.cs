@@ -2,7 +2,7 @@
 
 namespace Evently.Api.Config;
 
-internal static class LocalizationConfig
+internal static class CultureConfig
 {
     public static IServiceCollection AddLocalization(this IServiceCollection services)
     {
