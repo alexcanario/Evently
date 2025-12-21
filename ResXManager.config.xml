@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Values xmlns="urn:tom-englert.de/Configuration/1/0">
+  <Value Key="CultureCountyOverrides">en=en-150</Value>
+  <Value Key="AutoCreateNewLanguageFiles">True</Value>
+  <Value Key="ConfirmAddLanguageFile">True</Value>
+</Values>
