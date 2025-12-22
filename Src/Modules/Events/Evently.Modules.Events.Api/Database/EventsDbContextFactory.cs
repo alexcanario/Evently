@@ -14,7 +14,7 @@ public sealed class EventsDbContextFactory : IDesignTimeDbContextFactory<EventsD
     {
         // Obtém a connection string de variável de ambiente ou usa valor padrão
         string connectionString = Environment.GetEnvironmentVariable("EVENTS_DB_CONNECTION_STRING")
-            ?? "Host=localhost;Port=5432;Database=evently;Username=eventlyApp;Password=C@151867;Include Error Detail=true";
+            ?? "Host=localhost;Port=5432;Database=evently;Username=postgres;Password=postgres;Include Error Detail=true";
 
         DbContextOptionsBuilder<EventsDbContext> optionsBuilder = new();
         

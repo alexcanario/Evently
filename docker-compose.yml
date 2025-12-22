@@ -7,3 +7,6 @@
 
   evently.database:
     image: postgres:latest
+
+volumes:
+  postgres_events:

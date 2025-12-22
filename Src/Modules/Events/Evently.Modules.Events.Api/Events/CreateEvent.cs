@@ -24,8 +24,8 @@ public static class CreateEvent
                 Title = request.Title,
                 Description = request.Description,
                 Location = request.Location,
-                StartsAtUtc = request.StartsAtUtc,
-                EndsAtUtc = request.EndsAtUtc,
+                StartsAtUtc = DateTime.SpecifyKind(request.StartsAtUtc, DateTimeKind.Utc),
+                EndsAtUtc = DateTime.SpecifyKind(request.EndsAtUtc, DateTimeKind.Utc),
                 Status = EventStatus.Draft,
             };
 
