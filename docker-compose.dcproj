@@ -21,6 +21,7 @@
     <None Include="docs\.gitignore" />
     <None Include="docs\CHECKLIST.md" />
     <None Include="docs\docs\guides\docusaurus-openapi-integration.md" />
+    <None Include="docs\docs\guides\postman-collections.md" />
     <None Include="docs\docs\intro.md" />
     <None Include="docs\docs\quick-start.md" />
     <None Include="docs\docusaurus.config.js" />
@@ -29,5 +30,11 @@
     <None Include="docs\README.md" />
     <None Include="docs\sidebars.js" />
     <None Include="docs\update-docs.bat" />
+    <None Include="generate-postman-collection.bat" />
+    <None Include="postman\.gitignore" />
+    <None Include="postman\Evently-API.postman_collection.json" />
+    <None Include="postman\Evently-Dev.postman_environment.json" />
+    <None Include="postman\README.md" />
+    <None Include="POSTMAN_QUICK_GUIDE.md" />
   </ItemGroup>
 </Project>

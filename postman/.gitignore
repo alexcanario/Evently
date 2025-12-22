@@ -1,0 +1,7 @@
+﻿# Postman generated files
+postman/evently-openapi.json
+
+# Keep collections and environments
+!postman/*.postman_collection.json
+!postman/*.postman_environment.json
+!postman/README.md

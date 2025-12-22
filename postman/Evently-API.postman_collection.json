@@ -1,0 +1,15 @@
+﻿{
+  "info": {
+    "name": "Evently API",
+    "_postman_id": "evently-api-collection",
+    "description": "Evently Event Management API - Generated from OpenAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5050",
+      "type": "string"
+    }
+  ]
+}

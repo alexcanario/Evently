@@ -22,7 +22,11 @@ const sidebars = {
     {
       type: 'category',
       label: 'Guides',
-      items: ['guides/docker-setup', 'guides/database-setup', 'guides/docusaurus-openapi-integration'],
+      items: [
+        'guides/docker-setup',
+        'guides/postman-collections',
+        'guides/docusaurus-openapi-integration',
+      ],
     },
   ],
 };
