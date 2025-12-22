@@ -18,5 +18,16 @@
     </None>
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
+    <None Include="docs\.gitignore" />
+    <None Include="docs\CHECKLIST.md" />
+    <None Include="docs\docs\guides\docusaurus-openapi-integration.md" />
+    <None Include="docs\docs\intro.md" />
+    <None Include="docs\docs\quick-start.md" />
+    <None Include="docs\docusaurus.config.js" />
+    <None Include="docs\package.json" />
+    <None Include="docs\QUICK_REFERENCE.md" />
+    <None Include="docs\README.md" />
+    <None Include="docs\sidebars.js" />
+    <None Include="docs\update-docs.bat" />
   </ItemGroup>
 </Project>
