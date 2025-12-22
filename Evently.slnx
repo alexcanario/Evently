@@ -1,4 +1,16 @@
 <Solution>
+  <Folder Name="/docs/">
+    <File Path="ALTERACOES_RESUMO.md" />
+    <File Path="CONFIGURACOES_IIS.md" />
+    <File Path="deploy-to-iis.ps1" />
+    <File Path="docs/docs/guides/iis-deployment.md" />
+    <File Path="IIS_DEPLOYMENT_CHECKLIST.md" />
+    <File Path="IIS_DEPLOY_README.md" />
+    <File Path="IIS_FILES_INDEX.md" />
+    <File Path="IIS_QUICK_REFERENCE.md" />
+    <File Path="IIS_SETUP_VISUAL.md" />
+    <File Path="INDICE_COMPLETO_IIS.md" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path="Directory.Build.props" />
