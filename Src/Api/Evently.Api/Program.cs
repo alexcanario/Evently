@@ -1,6 +1,6 @@
 ﻿using Evently.Api.Config;
 using Evently.Api.Extensions;
-using Evently.Modules.Events.Api;
+using Evently.Modules.Events.Infrastructure;
 using Scalar.AspNetCore;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -26,22 +26,6 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.ApplyMigrations();
     app.MapScalarApiReference();
-}
-
-// Em produção, também expor OpenAPI e Scalar para facilitar testes
-if (app.Environment.IsProduction())
-{
-    app.MapOpenApi();
-    app.MapScalarApiReference();
-    
-    // Aplicar migrações em produção (APENAS em IIS local/desenvolvimento)
-    // REMOVA esta linha em ambiente de produção real!
-    // Use dotnet ef database update ou scripts SQL em produção
-    bool applyMigrationsInProduction = builder.Configuration.GetValue<bool>("ApplyMigrationsOnStartup", false);
-    if (applyMigrationsInProduction)
-    {
-        app.ApplyMigrations();
-    }
 }
 
 EventsModuleConfig.MapEndpoints(app);

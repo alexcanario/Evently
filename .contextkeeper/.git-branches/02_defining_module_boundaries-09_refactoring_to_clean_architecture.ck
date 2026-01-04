@@ -4,20 +4,35 @@
   "State": [
     {
       "WindowType": "MainWindow",
-      "WindowState": "Maximized",
       "Window": {
-        "Left": 0,
+        "Left": -7,
         "Top": 0,
-        "Width": 3440,
-        "Height": 1392
+        "Width": 2307,
+        "Height": 1399
       },
       "Docks": [
         {
           "Documents": [
             {
-              "FilePath": "D:\\code\\learning\\_Javanovic\\Evently\\Src\\Modules\\Events\\Evently.Modules.Events.Presentation\\Evently.Modules.Events.Presentation.csproj",
-              "RelativePath": "..\\..\\Src\\Modules\\Events\\Evently.Modules.Events.Presentation\\Evently.Modules.Events.Presentation.csproj",
-              "FullName": "Evently.Modules.Events.Presentation.csproj",
+              "FilePath": "D:\\code\\learning\\_Javanovic\\Evently\\Src\\Api\\Evently.Api\\appsettings.Development.json",
+              "RelativePath": "..\\..\\Src\\Api\\Evently.Api\\appsettings.Development.json",
+              "FullName": "appsettings.Development.json",
+              "DockedHeight": {
+                "UnitType": "Stretch",
+                "Value": 200
+              },
+              "DockedWidth": {
+                "UnitType": "Stretch",
+                "Value": 200
+              },
+              "Line": 1,
+              "Column": 1,
+              "IsPinned": false
+            },
+            {
+              "FilePath": "D:\\code\\learning\\_Javanovic\\Evently\\Src\\Modules\\Events\\Evently.Modules.Events.Infrastructure\\Database\\EventsDbContextFactory.cs",
+              "RelativePath": "..\\..\\Src\\Modules\\Events\\Evently.Modules.Events.Infrastructure\\Database\\EventsDbContextFactory.cs",
+              "FullName": "EventsDbContextFactory.cs",
               "DockedHeight": {
                 "UnitType": "Stretch",
                 "Value": 200

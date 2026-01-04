@@ -1,5 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Evently.Modules.Events.Api.Database;
+﻿using Evently.Modules.Events.Infrastructure.Database;
+
+using Microsoft.EntityFrameworkCore;
 
 namespace Evently.Api.Extensions;
 
